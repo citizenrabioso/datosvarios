@@ -1,0 +1,13 @@
+[
+{"name":"flare.Artificial_Intelligence","size":3938,"imports":["flare.MachineLearning","flare.GoogleTranslateSelfEvolution","flare.JerryFodor","flare.ConvolutionalNeuralNetwork"]},
+{"name":"flare.Universality","size":6714,"imports":["flare.Math","flare.Physics"]},
+{"name":"flare.Cesar_Hidalgo","size":743,"imports":["flare.InformationGrowth","flare.LATCH"]},
+{"name":"flare.MachineLearning","size":2822,"imports":[]},
+{"name":"flare.GoogleTranslateSelfEvolution","size":2822,"imports":[]},
+{"name":"flare.JerryFodor","size":2822,"imports":[]},
+{"name":"flare.ConvolutionalNeuralNetwork","size":2822,"imports":[]},
+{"name":"flare.Math","size":2822,"imports":[]},
+{"name":"flare.Physics","size":2822,"imports":[]},
+{"name":"flare.InformationGrowth","size":2822,"imports":[]},
+{"name":"flare.LATCH","size":2822,"imports":[]}
+]
