@@ -36,9 +36,9 @@ text {
 <script src="//d3js.org/d3.v3.min.js"></script>
 <script>
 var links = [
-{source: "Altamira", target: "LeopoldoAlas", type: "licensing"},
-{source: "Altamira", target: "Giner", type: "suit"},
-{source: "Altamira", target: "Soriano", type: "licensing"},
+{source: "Canal13", target: "Periodista1", type: "licensing"},
+{source: "Canal7", target: "Periodista2", type: "suit"},
+{source: "RadioDuna", target: "Periodista3", type: "licensing"},
 {source: "Altamira", target: "Palma", type: "suit"},
 {source: "Altamira", target: "Amunategui", type: "suit"},
 {source: "Altamira", target: "Costa", type: "licensing"},
@@ -50,10 +50,12 @@ var links = [
 {source: "Altamira", target: "Unamuno", type: "licensing"}
 ];
 var nodes = {
-Altamira:{"name":"Altamira", "color": "red"},
-LeopoldoAlas:{"name":"Leopoldo Alas", "color": "grey"},
-Giner:{"name":"Giner", "color": "grey"},
-Soriano:{"name":"Soriano", "color": "grey"},
+Canal13:{"name":"Canal 13", "color": "red"},
+Canal7:{"name":"Canal 7", "color": "red"},
+RadioDuna:{"name":"Radio Duna", "color": "red"},
+Periodista1:{"name":"Leopoldo Alas", "color": "grey"},
+Periodista2:{"name":"Giner", "color": "grey"},
+Periodista3:{"name":"Soriano", "color": "grey"},
 Palma:{"name":"Palma", "color": "skyblue"},
 Amunategui:{"name":"Amunátegui", "color": "skyblue"},
 Costa:{"name":"Costa", "color": "grey"},
@@ -132,7 +134,7 @@ function transform(d) {
 }
 </script>
 <br>
-Correspondencia Pre 1898: De Altamira a Otros
+Lobbistas en los medios
 <br>
 <br>
 nodo color celeste: Latinoamericanos
@@ -145,4 +147,4 @@ Flecha gris continua: correspondencia entre 6 y 11
 <br>
 Flecha verde continua: correspondencia mayor o igual a 12
 <br>
- <a href="https://citizenrabioso.github.io/visualizations/">Back</a> 
+<a href="https://citizenrabioso.github.io/visualizations/">Back</a> 
