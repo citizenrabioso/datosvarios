@@ -2,7 +2,7 @@
  "name": "Piñera",
  "children": [
   {
-   "name": "vis",
+   "name": "Piñera.vis",
    "children": [
     {
      "name": "events",
