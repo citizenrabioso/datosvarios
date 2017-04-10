@@ -165,8 +165,8 @@
       {
        "name": "distortion",
        "children": [
-        {"name": "BifocalDistortion", "value": 4461},
-        {"name": "FisheyeDistortion", "value": 3444}
+        {"name": "BifocalDistortion", "value": 461},
+        {"name": "FisheyeDistortion", "value": 344}
        ]
       },
       {
