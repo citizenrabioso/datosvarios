@@ -124,15 +124,15 @@
      "name": "axis",
      "children": [
       {"name": "Axes", "value": 102},
-      {"name": "CartesianAxes", "value": 303}
+      {"name": "CartesianAxes", "value": 103}
      ]
     },
     {
      "name": "controls",
      "children": [
       {"name": "AnchorControl", "value": 238},
-      {"name": "SelectionControl", "value": 362},
-      {"name": "TooltipControl", "value": 335}
+      {"name": "SelectionControl", "value": 162},
+      {"name": "TooltipControl", "value": 135}
      ]
     },
     {
@@ -143,18 +143,18 @@
       {
        "name": "render",
        "children": [
-        {"name": "ArrowType", "value": 398},
+        {"name": "ArrowType", "value": 198},
         {"name": "ShapeRenderer", "value": 247}
        ]
       },
-      {"name": "TreeBuilder", "value": 930}
+      {"name": "TreeBuilder", "value": 230}
      ]
     },
     {
      "name": "legend",
      "children": [
       {"name": "Legend", "value": 289},
-      {"name": "LegendItem", "value": 414},
+      {"name": "LegendItem", "value": 214},
       {"name": "LegendRange", "value": 130}
      ]
     },
@@ -164,14 +164,14 @@
       {
        "name": "distortion",
        "children": [
-        {"name": "BifocalDistortion", "value": 461},
+        {"name": "BifocalDistortion", "value": 261},
         {"name": "FisheyeDistortion", "value": 344}
        ]
       },
       {
        "name": "filter",
        "children": [
-        {"name": "FisheyeTreeFilter", "value": 519},
+        {"name": "FisheyeTreeFilter", "value": 219},
         {"name": "VisibilityFilter", "value": 309}
        ]
       },
@@ -179,7 +179,7 @@
       {
        "name": "layout",
        "children": [
-        {"name": "AxisLayout", "value": 625},
+        {"name": "AxisLayout", "value": 225},
         {"name": "StackedAreaLayout", "value": 321},
         {"name": "TreeMapLayout", "value": 311}
        ]
