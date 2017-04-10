@@ -124,14 +124,14 @@
     {
      "name": "axis",
      "children": [
-      {"name": "Axes", "value": 1302},
-      {"name": "CartesianAxes", "value": 6703}
+      {"name": "Axes", "value": 102},
+      {"name": "CartesianAxes", "value": 603}
      ]
     },
     {
      "name": "controls",
      "children": [
-      {"name": "AnchorControl", "value": 2138},
+      {"name": "AnchorControl", "value": 238},
       {"name": "SelectionControl", "value": 762},
       {"name": "TooltipControl", "value": 835}
      ]
@@ -139,13 +139,13 @@
     {
      "name": "data",
      "children": [
-      {"name": "Data", "value": 2054},
-      {"name": "NodeSprite", "value": 1932},
+      {"name": "Data", "value": 254},
+      {"name": "NodeSprite", "value": 132},
       {
        "name": "render",
        "children": [
         {"name": "ArrowType", "value": 698},
-        {"name": "ShapeRenderer", "value": 2247}
+        {"name": "ShapeRenderer", "value": 247}
        ]
       },
       {"name": "TreeBuilder", "value": 930}
@@ -154,9 +154,9 @@
     {
      "name": "legend",
      "children": [
-      {"name": "Legend", "value": 2089},
-      {"name": "LegendItem", "value": 4614},
-      {"name": "LegendRange", "value": 1030}
+      {"name": "Legend", "value": 289},
+      {"name": "LegendItem", "value": 414},
+      {"name": "LegendRange", "value": 130}
      ]
     },
     {
@@ -173,10 +173,10 @@
        "name": "filter",
        "children": [
         {"name": "FisheyeTreeFilter", "value": 519},
-        {"name": "VisibilityFilter", "value": 3509}
+        {"name": "VisibilityFilter", "value": 309}
        ]
       },
-      {"name": "IOperator", "value": 1286},
+      {"name": "IOperator", "value": 186},
       {
        "name": "layout",
        "children": [
@@ -185,11 +185,11 @@
         {"name": "TreeMapLayout", "value": 911}
        ]
       },
-      {"name": "Operator", "value": 2490},
-      {"name": "SortOperator", "value": 2023}
+      {"name": "Operator", "value": 290},
+      {"name": "SortOperator", "value": 223}
      ]
     },
-    {"name": "Visualization", "value": 1540}
+    {"name": "Visualization", "value": 140}
    ]
   }
  ]
