@@ -1,5 +1,5 @@
 {
- "name": "Piñera3",
+ "name": "Sociedades de Sebastian Piñera",
  "children": [
   {
    "name": "analytics",
@@ -7,7 +7,7 @@
     {
      "name": "cluster",
      "children": [
-      {"name": "AgglomerativeCluster", "value": 3938},
+      {"name": "AgglomerativeCluster", "value": 13938},
       {"name": "HierarchicalCluster", "value": 6714},
       {"name": "MergeEdge", "value": 743}
      ]
@@ -104,7 +104,6 @@
      "name": "math",
      "children": [
       {"name": "DenseMatrix", "value": 3165},
-      {"name": "IMatrix", "value": 2815},
       {"name": "SparseMatrix", "value": 3366}
      ]
     },
@@ -114,12 +113,10 @@
      "name": "palette",
      "children": [
       {"name": "ColorPalette", "value": 6367},
-      {"name": "ShapePalette", "value": 2059},
       {"name": "SizePalette", "value": 2291}
      ]
     },
     {"name": "Property", "value": 5559},
-    {"name": "Stats", "value": 6557},
     {"name": "Strings", "value": 22026}
    ]
   },
@@ -153,17 +150,7 @@
         {"name": "ShapeRenderer", "value": 2247}
        ]
       },
-      {"name": "ScaleBinding", "value": 11275},
-      {"name": "Tree", "value": 7147},
       {"name": "TreeBuilder", "value": 9930}
-     ]
-    },
-    {
-     "name": "events",
-     "children": [
-      {"name": "DataEvent", "value": 2313},
-      {"name": "TooltipEvent", "value": 1701},
-      {"name": "VisualizationEvent", "value": 1117}
      ]
     },
     {
