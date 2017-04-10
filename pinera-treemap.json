@@ -1,8 +1,8 @@
 {
- "name": "flare",
+ "name": "Piñera",
  "children": [
   {
-   "name": "Piñera",
+   "name": "vis",
    "children": [
     {
      "name": "events",
