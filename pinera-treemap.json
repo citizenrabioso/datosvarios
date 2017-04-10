@@ -148,7 +148,7 @@
         {"name": "ShapeRenderer", "value": 2247}
        ]
       },
-      {"name": "TreeBuilder", "value": 9930}
+      {"name": "TreeBuilder", "value": 930}
      ]
     },
     {
@@ -156,7 +156,7 @@
      "children": [
       {"name": "Legend", "value": 2089},
       {"name": "LegendItem", "value": 4614},
-      {"name": "LegendRange", "value": 10530}
+      {"name": "LegendRange", "value": 1030}
      ]
     },
     {
@@ -172,7 +172,7 @@
       {
        "name": "filter",
        "children": [
-        {"name": "FisheyeTreeFilter", "value": 5219},
+        {"name": "FisheyeTreeFilter", "value": 519},
         {"name": "VisibilityFilter", "value": 3509}
        ]
       },
@@ -180,9 +180,9 @@
       {
        "name": "layout",
        "children": [
-        {"name": "AxisLayout", "value": 6725},
-        {"name": "StackedAreaLayout", "value": 9121},
-        {"name": "TreeMapLayout", "value": 9191}
+        {"name": "AxisLayout", "value": 625},
+        {"name": "StackedAreaLayout", "value": 921},
+        {"name": "TreeMapLayout", "value": 911}
        ]
       },
       {"name": "Operator", "value": 2490},
