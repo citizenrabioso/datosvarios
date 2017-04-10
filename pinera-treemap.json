@@ -44,7 +44,7 @@
      "name": "converters",
      "children": [
       {"name": "Converters", "value": 1721},
-      {"name": "IDataConverter", "value": 1314},
+      {"name": "IDataConverter", "value": 5314},
       {"name": "JSONConverter", "value": 8220}
      ]
     },
