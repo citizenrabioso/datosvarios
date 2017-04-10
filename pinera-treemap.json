@@ -43,12 +43,12 @@
     {
      "name": "converters",
      "children": [
-      {"name": "Converters", "value": 721},
+      {"name": "Converters", "value": 1721},
       {"name": "IDataConverter", "value": 1314},
-      {"name": "JSONConverter", "value": 2220}
+      {"name": "JSONConverter", "value": 8220}
      ]
     },
-    {"name": "DataUtil", "value": 3322}
+    {"name": "DataUtil", "value": 6322}
    ]
   },
   {
@@ -68,7 +68,6 @@
    "name": "physics",
    "children": [
     {"name": "DragForce", "value": 1082},
-    {"name": "Spring", "value": 2213},
     {"name": "SpringForce", "value": 1681}
    ]
   },
@@ -83,13 +82,13 @@
    "name": "scale",
    "children": [
     {"name": "IScaleMap", "value": 2105},
-    {"name": "TimeScale", "value": 5833}
+    {"name": "TimeScale", "value": 2833}
    ]
   },
   {
    "name": "util",
    "children": [
-    {"name": "Arrays", "value": 8258},
+    {"name": "Arrays", "value": 2258},
     {"name": "Geometry", "value": 1993},
     {
      "name": "heap",
