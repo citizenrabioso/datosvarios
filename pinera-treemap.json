@@ -8,7 +8,7 @@
      "name": "cluster",
      "children": [
       {"name": "AgglomerativeCluster", "value": 13938},
-      {"name": "HierarchicalCluster", "value": 6714},
+      {"name": "HierarchicalCluster", "value": 16714},
       {"name": "MergeEdge", "value": 743}
      ]
     },
@@ -98,8 +98,6 @@
       {"name": "HeapNode", "value": 1233}
      ]
     },
-    {"name": "IEvaluable", "value": 335},
-    {"name": "IValueProxy", "value": 874},
     {
      "name": "math",
      "children": [
@@ -141,8 +139,8 @@
     {
      "name": "data",
      "children": [
-      {"name": "Data", "value": 20544},
-      {"name": "NodeSprite", "value": 19382},
+      {"name": "Data", "value": 2054},
+      {"name": "NodeSprite", "value": 1932},
       {
        "name": "render",
        "children": [
