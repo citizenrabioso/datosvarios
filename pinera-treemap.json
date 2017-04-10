@@ -55,7 +55,7 @@
    "name": "display",
    "children": [
     {"name": "DirtySprite", "value": 8833},
-    {"name": "TextSprite", "value": 4066}
+    {"name": "TextSprite", "value": 7066}
    ]
   },
   {
