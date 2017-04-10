@@ -88,8 +88,8 @@
   {
    "name": "util",
    "children": [
-    {"name": "Arrays", "value": 2258},
-    {"name": "Geometry", "value": 1993},
+    {"name": "Arrays", "value": 258},
+    {"name": "Geometry", "value": 193},
     {
      "name": "heap",
      "children": [
@@ -100,20 +100,20 @@
     {
      "name": "math",
      "children": [
-      {"name": "DenseMatrix", "value": 3165},
-      {"name": "SparseMatrix", "value": 3366}
+      {"name": "DenseMatrix", "value": 365},
+      {"name": "SparseMatrix", "value": 366}
      ]
     },
-    {"name": "Maths", "value": 1705},
-    {"name": "Orientation", "value": 1486},
+    {"name": "Maths", "value": 105},
+    {"name": "Orientation", "value": 186},
     {
      "name": "palette",
      "children": [
-      {"name": "ColorPalette", "value": 6367},
+      {"name": "ColorPalette", "value": 2367},
       {"name": "SizePalette", "value": 2291}
      ]
     },
-    {"name": "Property", "value": 5559},
+    {"name": "Property", "value": 2559},
     {"name": "Strings", "value": 2026}
    ]
   },
