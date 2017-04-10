@@ -81,19 +81,19 @@
   {
    "name": "scale",
    "children": [
-    {"name": "IScaleMap", "value": 2105},
-    {"name": "TimeScale", "value": 2833}
+    {"name": "IScaleMap", "value": 3105},
+    {"name": "TimeScale", "value": 3833}
    ]
   },
   {
    "name": "util",
    "children": [
-    {"name": "Arrays", "value": 258},
-    {"name": "Geometry", "value": 193},
+    {"name": "Arrays", "value": 1258},
+    {"name": "Geometry", "value": 1193},
     {
      "name": "heap",
      "children": [
-      {"name": "FibonacciHeap", "value": 954},
+      {"name": "FibonacciHeap", "value": 1954},
       {"name": "HeapNode", "value": 1233}
      ]
     },
