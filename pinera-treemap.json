@@ -109,11 +109,11 @@
     {
      "name": "palette",
      "children": [
-      {"name": "ColorPalette", "value": 2367},
-      {"name": "SizePalette", "value": 2291}
+      {"name": "ColorPalette", "value": 367},
+      {"name": "SizePalette", "value": 291}
      ]
     },
-    {"name": "Property", "value": 2559},
+    {"name": "Property", "value": 559},
     {"name": "Strings", "value": 2026}
    ]
   },
