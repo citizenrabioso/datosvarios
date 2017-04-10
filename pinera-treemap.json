@@ -61,21 +61,21 @@
   {
    "name": "flex",
    "children": [
-    {"name": "FlareVis", "value": 4116}
+    {"name": "FlareVis", "value": 12116}
    ]
   },
   {
    "name": "physics",
    "children": [
-    {"name": "DragForce", "value": 1082},
-    {"name": "SpringForce", "value": 1681}
+    {"name": "DragForce", "value": 5082},
+    {"name": "SpringForce", "value": 5681}
    ]
   },
   {
    "name": "query",
    "children": [
-    {"name": "AggregateExpression", "value": 1616},
-    {"name": "Xor", "value": 1101}
+    {"name": "AggregateExpression", "value": 4616},
+    {"name": "Xor", "value": 4101}
    ]
   },
   {
