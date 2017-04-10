@@ -88,13 +88,13 @@
   {
    "name": "util",
    "children": [
-    {"name": "Arrays", "value": 1258},
-    {"name": "Geometry", "value": 1193},
+    {"name": "Arrays", "value": 258},
+    {"name": "Geometry", "value": 193},
     {
      "name": "heap",
      "children": [
-      {"name": "FibonacciHeap", "value": 1954},
-      {"name": "HeapNode", "value": 1233}
+      {"name": "FibonacciHeap", "value": 954},
+      {"name": "HeapNode", "value": 233}
      ]
     },
     {
@@ -124,15 +124,15 @@
      "name": "axis",
      "children": [
       {"name": "Axes", "value": 102},
-      {"name": "CartesianAxes", "value": 603}
+      {"name": "CartesianAxes", "value": 303}
      ]
     },
     {
      "name": "controls",
      "children": [
       {"name": "AnchorControl", "value": 238},
-      {"name": "SelectionControl", "value": 762},
-      {"name": "TooltipControl", "value": 835}
+      {"name": "SelectionControl", "value": 362},
+      {"name": "TooltipControl", "value": 335}
      ]
     },
     {
@@ -143,7 +143,7 @@
       {
        "name": "render",
        "children": [
-        {"name": "ArrowType", "value": 698},
+        {"name": "ArrowType", "value": 398},
         {"name": "ShapeRenderer", "value": 247}
        ]
       },
@@ -180,8 +180,8 @@
        "name": "layout",
        "children": [
         {"name": "AxisLayout", "value": 625},
-        {"name": "StackedAreaLayout", "value": 921},
-        {"name": "TreeMapLayout", "value": 911}
+        {"name": "StackedAreaLayout", "value": 321},
+        {"name": "TreeMapLayout", "value": 311}
        ]
       },
       {"name": "Operator", "value": 290},
