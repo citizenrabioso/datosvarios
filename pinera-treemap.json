@@ -154,7 +154,7 @@
     {
      "name": "legend",
      "children": [
-      {"name": "Legend", "value": 20859},
+      {"name": "Legend", "value": 2089},
       {"name": "LegendItem", "value": 4614},
       {"name": "LegendRange", "value": 10530}
      ]
