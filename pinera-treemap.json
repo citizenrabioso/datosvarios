@@ -89,7 +89,7 @@
    "name": "util",
    "children": [
     {"name": "Arrays", "value": 1258},
-    {"name": "Geometry", "value": 193},
+    {"name": "Geometry", "value": 1193},
     {
      "name": "heap",
      "children": [
