@@ -57,7 +57,7 @@ g.call(d3.axisBottom(x)
   .select(".domain")
     .remove();
 d3.queue()
-    .defer(d3.json, "choropleth-cl.json")
+    .defer(d3.json, "choropleth-cl-2.json")
     .defer(d3.tsv, "choropleth-cl.tsv", function(d) { unemployment.set(d.id, +d.rate); })
     .await(ready);
 function ready(error, us) {
