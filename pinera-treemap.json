@@ -1,27 +1,36 @@
 {
- "name": "Sociedades de Sebastian Piñera",
+ "name": "Sociedades de Familia Piñera-Morel",
  "children": [
   {
-   "name": "analytics",
+   "name": "SebastianPiñera",
    "children": [
     {
-     "name": "cluster",
+     "name": "Bancard Inversiones Ltda:",
      "children": [
-      {"name": "AgglomerativeCluster", "value": 13938},
-      {"name": "HierarchicalCluster", "value": 16714},
-      {"name": "MergeEdge", "value": 10743}
+      {"name": "Vox Populi S.A.", "value": 5000},
+      {"name": "Agrícola y Ganadera Los Corrales S.A.", "value": 5000},
+      {"name": "Inmobiliaria Arenas Blancas S.A.", "value": 9999},
+      {"name": "Inversora San Juan S.A.", "value": 5000},
+      {"name": "Inmobiliaria El Boldo S.A.", "value": 5621},
+      {"name": "Inversiones Antupirén S.A.", "value": 1250},
+      {"name": "Diptel", "value": 9900},
+      {"name": "Inmobiliaria Puente La Dehesa", "value": 1875},
+      {"name": "Participaciones Futuro", "value": 5000},
+      {"name": "Inversiones Totoralillo", "value": 1000},
+      {"name": "Hotelera Ranco", "value": 1},
+      {"name": "Transporte Icato S.A.", "value": 106}
      ]
     },
     {
-     "name": "optimization",
+     "name": "Inversiones Bancorp Ltda",
      "children": [
-      {"name": "AspectRatioBanker", "value": 17074}
+      {"name": "Inversiones Santa Cecilia", "value": 9990}
      ]
     }
    ]
   },
   {
-   "name": "animate",
+   "name": "CeciliaMorel",
    "children": [
     {"name": "Easing", "value": 17010},
     {"name": "FunctionSequence", "value": 5842},
@@ -35,54 +44,6 @@
     {"name": "ISchedulable", "value": 1041},
     {"name": "Parallel", "value": 5176},
     {"name": "Tween", "value": 6006}
-   ]
-  },
-  {
-   "name": "data",
-   "children": [
-    {
-     "name": "converters",
-     "children": [
-      {"name": "Converters", "value": 1721},
-      {"name": "IDataConverter", "value": 5314},
-      {"name": "JSONConverter", "value": 8220}
-     ]
-    },
-    {"name": "DataUtil", "value": 6322}
-   ]
-  },
-  {
-   "name": "display",
-   "children": [
-    {"name": "DirtySprite", "value": 8833},
-    {"name": "TextSprite", "value": 7066}
-   ]
-  },
-  {
-   "name": "flex",
-   "children": [
-    {"name": "FlareVis", "value": 12116}
-   ]
-  },
-  {
-   "name": "physics",
-   "children": [
-    {"name": "DragForce", "value": 5082},
-    {"name": "SpringForce", "value": 5681}
-   ]
-  },
-  {
-   "name": "query",
-   "children": [
-    {"name": "AggregateExpression", "value": 4616},
-    {"name": "Xor", "value": 4101}
-   ]
-  },
-  {
-   "name": "scale",
-   "children": [
-    {"name": "IScaleMap", "value": 3105},
-    {"name": "TimeScale", "value": 3833}
    ]
   },
   {
