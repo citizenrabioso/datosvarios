@@ -2,12 +2,13 @@ id,value,color
 Candidatos,
 Candidatos.Piñera,
 Candidatos.Piñera.Educacion,1.5,#617CBE
-Candidatos.Piñera.C++,1,#0073AD
-Candidatos.Piñera.SQL,1.5,#E58E00
+Candidatos.Piñera.Salud,1,#0073AD
+Candidatos.Piñera.AFPs,1.5,#E58E00
 Candidatos.Guillier,
-Candidatos.Guillier.VPS & SharedHost,2,#808080
-Candidatos.Guillier.Linux,2.5,#040404
-Candidatos.Guillier.Apache & Tomcat,2,#CA212F
+Candidatos.Guillier.Educacion,2,#808080
+Candidatos.Guillier.Salud,2.5,#040404
+Candidatos.Guillier.AFPs,2,#CA212F
 Candidatos.BeaSanchez,
-Candidatos.BeaSanchez.Wordpress,1.5,#00A0D2
-Candidatos.BeaSanchez.Drupal,1.5,#0678BE
+Candidatos.BeaSanchez.Educacion,1.5,#00A0D2
+Candidatos.BeaSanchez.Salud,1.5,#0678BE
+Candidatos.BeaSanchez.AFPs,2.5,#808080
