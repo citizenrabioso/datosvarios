@@ -1,11 +1,11 @@
 id,value,color
 Candidatos,
 Candidatos.Back-End,
-Candidatos.Back-End.PHP,1.5,#617CBE
+Candidatos.Back-End.Educacion,1.5,#617CBE
 Candidatos.Back-End.C++,1,#0073AD
 Candidatos.Back-End.SQL,1.5,#E58E00
 Candidatos.Back-End.Java World,
-Candidatos.Back-End.Java World.Java SE,3,#EB2C2F
+Candidatos.Back-End.Java World.Educacion,3,#EB2C2F
 Candidatos.Back-End.Java World.JSP,2,#EB2C2F
 Candidatos.Back-End.Java World.Hibernate,2.5,#59666C
 Candidatos.Back-End.Java World.Thymeleaf,3,#005F0F
