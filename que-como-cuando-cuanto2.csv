@@ -1,15 +1,15 @@
 id,value,color
 Candidatos,
-Candidatos.Front-End,
-Candidatos.Front-End.Design,1,#808080
-Candidatos.Front-End.Ps,0.5,#2E2575
-Candidatos.Front-End.HTML & CSS,3,#E54F24
-Candidatos.Front-End.SVG,1.5,#FF9900
-Candidatos.Front-End.Bootstrap,3,#563B7E
-Candidatos.Front-End.JavaScript World,
-Candidatos.Front-End.JavaScript World.JavaScript,3,#D6BA33
-Candidatos.Front-End.JavaScript World.JQuery,3,#1169AE
-Candidatos.Front-End.JavaScript World.D3 js,2.5,#F6854D
+Candidatos.ChileVamos,
+Candidatos.ChileVamos.Design,1,#808080
+Candidatos.ChileVamos.Ps,0.5,#2E2575
+Candidatos.ChileVamos.HTML & CSS,3,#E54F24
+Candidatos.ChileVamos.SVG,1.5,#FF9900
+Candidatos.ChileVamos.Bootstrap,3,#563B7E
+Candidatos.ChileVamos.JavaScript World,
+Candidatos.ChileVamos.JavaScript World.JavaScript,3,#D6BA33
+Candidatos.ChileVamos.JavaScript World.JQuery,3,#1169AE
+Candidatos.ChileVamos.JavaScript World.D3 js,2.5,#F6854D
 Candidatos.Back-End,
 Candidatos.Back-End.PHP,1.5,#617CBE
 Candidatos.Back-End.C++,1,#0073AD
