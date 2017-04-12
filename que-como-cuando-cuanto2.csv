@@ -1,11 +1,8 @@
 id,value,color
 Candidatos,
 Candidatos.ChileVamos,
-Candidatos.ChileVamos.Design,1,#808080
-Candidatos.ChileVamos.Ps,0.5,#2E2575
-Candidatos.ChileVamos.HTML & CSS,3,#E54F24
-Candidatos.ChileVamos.SVG,1.5,#FF9900
-Candidatos.ChileVamos.Bootstrap,3,#563B7E
+Candidatos.ChileVamos.Piñera,
+Candidatos.ChileVamos.Piñera.Educacion,1,#808080
 Candidatos.ChileVamos.JavaScript World,
 Candidatos.ChileVamos.JavaScript World.JavaScript,3,#D6BA33
 Candidatos.ChileVamos.JavaScript World.JQuery,3,#1169AE
