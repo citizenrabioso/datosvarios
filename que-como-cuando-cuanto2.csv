@@ -1,18 +1,13 @@
 id,value,color
 Candidatos,
-Candidatos.Back-End,
-Candidatos.Back-End.Educacion,1.5,#617CBE
-Candidatos.Back-End.C++,1,#0073AD
-Candidatos.Back-End.SQL,1.5,#E58E00
-Candidatos.Back-End.Java World,
-Candidatos.Back-End.Java World.Educacion,3,#EB2C2F
-Candidatos.Back-End.Java World.JSP,2,#EB2C2F
-Candidatos.Back-End.Java World.Hibernate,2.5,#59666C
-Candidatos.Back-End.Java World.Thymeleaf,3,#005F0F
-Candidatos.SysAdmin,
-Candidatos.SysAdmin.VPS & SharedHost,2,#808080
-Candidatos.SysAdmin.Linux,2.5,#040404
-Candidatos.SysAdmin.Apache & Tomcat,2,#CA212F
-Candidatos.CMS,
-Candidatos.CMS.Wordpress,1.5,#00A0D2
-Candidatos.CMS.Drupal,1.5,#0678BE
+Candidatos.Piñera,
+Candidatos.Piñera.Educacion,1.5,#617CBE
+Candidatos.Piñera.C++,1,#0073AD
+Candidatos.Piñera.SQL,1.5,#E58E00
+Candidatos.Guillier,
+Candidatos.Guillier.VPS & SharedHost,2,#808080
+Candidatos.Guillier.Linux,2.5,#040404
+Candidatos.Guillier.Apache & Tomcat,2,#CA212F
+Candidatos.BeaSanchez,
+Candidatos.BeaSanchez.Wordpress,1.5,#00A0D2
+Candidatos.BeaSanchez.Drupal,1.5,#0678BE
