@@ -1,14 +1,14 @@
 id,value,color
-Candidatos,
-Candidatos.SebastianPiñera,
-Candidatos.SebastianPiñera.Educacion,1.5,#617CBE
-Candidatos.SebastianPiñera.Salud,1,#0073AD
-Candidatos.SebastianPiñera.AFPs,1.5,#E58E00
-Candidatos.CeciliaMorel,
-Candidatos.CeciliaMorel.Educacion,2,#808080
-Candidatos.CeciliaMorel.Salud,2.5,#040404
-Candidatos.CeciliaMorel.AFPs,2,#CA212F
-Candidatos.CristobalPiñera,
-Candidatos.CristobalPiñera.Educacion,1.5,#00A0D2
-Candidatos.CristobalPiñera.Salud,1.5,#0678BE
-Candidatos.CristobalPiñera.AFPs,2.5,#808080
+SebastianPiñera.VoxPopuliSA,38.285,#617CBE
+SebastianPiñera.AgrícolayGanaderaLosCorrales SA,38.285,#0073AD
+SebastianPiñera.InmobiliariaArenasBlancasSA,66.78332496,#E58E00
+SebastianPiñera.InversoraSanJuanSA,38.28014,#617CBE
+SebastianPiñera.InmobiliariaElBoldo SA,39.975795188,#0073AD
+SebastianPiñera.Inversiones Antupirén SA,8.35625,#E58E01
+SebastianPiñera.Diptel,66.18150972,#617CBE
+SebastianPiñera.InmobiliariaPuenteLaDehesa,12.534375,#0073AD
+SebastianPiñera.ParticipacionesFuturo,33.425,#E58E02
+SebastianPiñera.InversionesTotoralillo,6.685,#617CBE
+SebastianPiñera.HoteleraRanco,0.006685,#0073AD
+SebastianPiñera.TransporteIcaroSA,0.70861,#E58E03
+SebastianPiñera.InversionesIndustrialesValparaisoSA,3.23352324,#617CBE
