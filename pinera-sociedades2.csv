@@ -1,0 +1,14 @@
+id,value,color
+Candidatos,
+Candidatos.SebastianPiñera,
+Candidatos.SebastianPiñera.Educacion,1.5,#617CBE
+Candidatos.SebastianPiñera.Salud,1,#0073AD
+Candidatos.SebastianPiñera.AFPs,1.5,#E58E00
+Candidatos.CeciliaMorel,
+Candidatos.CeciliaMorel.Educacion,2,#808080
+Candidatos.CeciliaMorel.Salud,2.5,#040404
+Candidatos.CeciliaMorel.AFPs,2,#CA212F
+Candidatos.CristobalPiñera,
+Candidatos.CristobalPiñera.Educacion,1.5,#00A0D2
+Candidatos.CristobalPiñera.Salud,1.5,#0678BE
+Candidatos.CristobalPiñera.AFPs,2.5,#808080
