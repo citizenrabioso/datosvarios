@@ -64,7 +64,7 @@
     // x-scale and x-axis
     var experienceName = ["N/A", "1%", "25%","50%","75%","100%"];
     var formatSkillPoints = function (d) {
-        return experienceName[d % 6];
+        return experienceName[d % 100];
     }
     var xScale =  d3.scaleLinear()
             .domain([0,5])
