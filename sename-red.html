@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 
-<!-- basado en Mobile Patent Suites + ajustes Cristian colores por nodo, http://bl.ocks.org/mbostock/1153292  -->
-<meta charset="utf-8"/>
+<!-- basado en Mobile Patent Suites + ajustes colores por nodo, http://bl.ocks.org/mbostock/1153292  -->
+<!-- datos desde http://frentefantasma.org/oficial/conoce-aqui-la-extensa-red-de-politicos-en-directorios-de-organismos-que-reciben-fondos-del-sename/   -->
 
+<meta charset="utf-8"/>
 <title> Citizen GitHub</title>
 
 <style>
@@ -36,7 +37,7 @@ text {
 <script src="//d3js.org/d3.v3.min.js"></script>
 <script>
 var links = [
-{source: "Canal13", target: "Periodista1", type: "licensing"},
+{source: "SENAME", target: "FundacionMiCasa", type: "licensing"},
 {source: "Canal7", target: "Periodista2", type: "suit"},
 {source: "RadioDuna", target: "Periodista2", type: "licensing"},
 {source: "RadioDuna", target: "Periodista3", type: "licensing"},
@@ -51,8 +52,8 @@ var links = [
 {source: "Canal13", target: "Periodista7", type: "licensing"}
 ];
 var nodes = {
-Canal13:{"name":"Canal 13", "color": "red"},
-Canal7:{"name":"Canal 7", "color": "red"},
+SENAME:{"name":"Canal 13", "color": "red"},
+FundacionMiCasa:{"name":"Fundacion Mi Casa", "color": "red"},
 RadioDuna:{"name":"Radio Duna", "color": "red"},
 Periodista1:{"name":"Periodista 1", "color": "grey"},
 Periodista2:{"name":"Periodista 2", "color": "grey"},
@@ -138,12 +139,12 @@ function transform(d) {
 Lobbistas en los medios
 <br>
 <br>
-nodo rojo: Medio de comunicación  //  nodo gris: Periodista  //  nodo negro: Empresa de Lobby  //  nodo  azul: Empresa cliente
+nodo rojo: autoridad SENAME  //  nodo gris: Institucion Colaboradora  //  nodo negro: Empresa de Lobby  //  nodo  azul: Empresa cliente
 <br>
 Flecha gris segmentada: relacion tipo 1
 <br>
 Flecha gris continua: relacion tipo 2
 <br>
-Flecha verde continua: relacion tipo 3
+Flecha verde continua: SENAME entrega dinero
 <br>
 <a href="https://citizenrabioso.github.io/visualizations/">Back Citizen</a> 
