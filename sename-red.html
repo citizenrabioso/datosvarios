@@ -38,35 +38,21 @@ text {
 <script>
 var links = [
 {source: "SENAME", target: "FundacionMiCasa", type: "licensing"},
-{source: "Canal7", target: "Periodista2", type: "suit"},
-{source: "RadioDuna", target: "Periodista2", type: "licensing"},
-{source: "RadioDuna", target: "Periodista3", type: "licensing"},
+{source: "SENAME", target: "ONG1", type: "suit"},
+{source: "SENAME", target: "ONG2", type: "licensing"},
+{source: "SENAME", target: "ONG3", type: "resolved"},
 {source: "Periodista2", target: "EmpresaLobby1", type: "suit"},
 {source: "EmpresaLobby1", target: "EmpresaCliente1", type: "suit"},
-{source: "Canal13", target: "Periodista4", type: "licensing"},
-{source: "Canal13", target: "Periodista5", type: "resolved"},
-{source: "Canal13", target: "Letelier", type: "resolved"},
-{source: "Canal13", target: "Hinostroza", type: "resolved"},
-{source: "Canal13", target: "Salinas", type: "resolved"},
-{source: "Canal13", target: "Periodista6", type: "resolved"},
-{source: "Canal13", target: "Periodista7", type: "licensing"}
+{source: "SENAME", target: "Periodista7", type: "licensing"}
 ];
 var nodes = {
 SENAME:{"name":"Canal 13", "color": "red"},
-FundacionMiCasa:{"name":"Fundacion Mi Casa", "color": "red"},
-RadioDuna:{"name":"Radio Duna", "color": "red"},
-Periodista1:{"name":"Periodista 1", "color": "grey"},
-Periodista2:{"name":"Periodista 2", "color": "grey"},
-Periodista3:{"name":"Periodista 3", "color": "grey"},
+FundacionMiCasa:{"name":"Fundacion Mi Casa", "color": "grey"},
+ONG1:{"name":"ONG 1", "color": "grey"},
+ONG2:{"name":"ONG 2", "color": "grey"},
+ONG3:{"name":"ONG 3", "color": "grey"},
 EmpresaLobby1:{"name":"Empresa Lobby 1", "color": "black"},
-EmpresaCliente1:{"name":"Empresa Cliente 1", "color": "skyblue"},
-Periodista4:{"name":"Periodista 4", "color": "grey"},
-Periodista5:{"name":"Periodista 5", "color": "grey"},
-Letelier:{"name":"Letelier", "color": "grey"},
-Hinostroza:{"name":"Hinostroza", "color": "grey"},
-Salinas:{"name":"Salinas", "color": "grey"},
-Periodista6:{"name":"Periodista 6", "color": "grey"},
-Periodista7:{"name":"Periodista 7", "color": "grey"}
+EmpresaCliente1:{"name":"Empresa Cliente 1", "color": "skyblue"}
 };
 // Compute the distinct nodes from the links.
 links.forEach(function(link) {
@@ -136,7 +122,7 @@ function transform(d) {
 }
 </script>
 <br>
-Lobbistas en los medios
+Red en torno al SENAME (trabajo en desarrollo)
 <br>
 <br>
 nodo rojo: autoridad SENAME  //  nodo gris: Institucion Colaboradora  //  nodo negro: Empresa de Lobby  //  nodo  azul: Empresa cliente
