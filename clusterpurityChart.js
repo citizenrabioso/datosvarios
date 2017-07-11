@@ -1,5 +1,6 @@
 //Developer: Narayana Swamy
 //emailID: narayanaswamy14@gmail.com
+//usado por https://citizenrabioso.github.io/datosvarios/que-como-cuando-cuanto1.html
 
 d3 = d3 || {};
 (function(){
