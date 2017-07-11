@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<!-- basado en Mobile Patent Suites + ajustes Cristian colores por nodo, http://bl.ocks.org/mbostock/1153292  -->
+<meta charset="utf-8"/>
+
+<title> Citizen GitHub</title>
+
+<style>
+.link {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.5px;
+}
+#licensing {
+  fill: green;
+}
+.link.licensing {
+  stroke: green;
+}
+.link.resolved {
+  stroke-dasharray: 0,2 1;
+}
+/*circle {
+  fill: #ccc;
+  stroke: #333;
+  stroke-width: 1.5px;
+}*/
+text {
+  font: 10px sans-serif;
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+}
+</style>
+
+<body>
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script>
+var links = [
+{source: "Canal13", target: "Periodista1", type: "licensing"},
+{source: "Canal7", target: "Periodista2", type: "suit"},
+{source: "RadioDuna", target: "Periodista2", type: "licensing"},
+{source: "RadioDuna", target: "Periodista3", type: "licensing"},
+{source: "Periodista2", target: "EmpresaLobby1", type: "suit"},
+{source: "EmpresaLobby1", target: "EmpresaCliente1", type: "suit"},
+{source: "Canal13", target: "Periodista4", type: "licensing"},
+{source: "Canal13", target: "Periodista5", type: "resolved"},
+{source: "Canal13", target: "Letelier", type: "resolved"},
+{source: "Canal13", target: "Hinostroza", type: "resolved"},
+{source: "Canal13", target: "Salinas", type: "resolved"},
+{source: "Canal13", target: "Periodista6", type: "resolved"},
+{source: "Canal13", target: "Periodista7", type: "licensing"}
+];
+var nodes = {
+Canal13:{"name":"Canal 13", "color": "red"},
+Canal7:{"name":"Canal 7", "color": "red"},
+RadioDuna:{"name":"Radio Duna", "color": "red"},
+Periodista1:{"name":"Periodista 1", "color": "grey"},
+Periodista2:{"name":"Periodista 2", "color": "grey"},
+Periodista3:{"name":"Periodista 3", "color": "grey"},
+EmpresaLobby1:{"name":"Empresa Lobby 1", "color": "black"},
+EmpresaCliente1:{"name":"Empresa Cliente 1", "color": "skyblue"},
+Periodista4:{"name":"Periodista 4", "color": "grey"},
+Periodista5:{"name":"Periodista 5", "color": "grey"},
+Letelier:{"name":"Letelier", "color": "grey"},
+Hinostroza:{"name":"Hinostroza", "color": "grey"},
+Salinas:{"name":"Salinas", "color": "grey"},
+Periodista6:{"name":"Periodista 6", "color": "grey"},
+Periodista7:{"name":"Periodista 7", "color": "grey"}
+};
+// Compute the distinct nodes from the links.
+links.forEach(function(link) {
+  link.source = nodes[link.source] || (nodes[link.source] = {name: link.source});
+  link.target = nodes[link.target] || (nodes[link.target] = {name: link.target});
+});
+var width = 960,
+    height = 500;
+var force = d3.layout.force()
+    .nodes(d3.values(nodes))
+    .links(links)
+    .size([width, height])
+    .linkDistance(150)
+    .charge(-300)
+    .on("tick", tick)
+    .start();
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+// Per-type markers, as they don't inherit styles.
+svg.append("defs").selectAll("marker")
+    .data(["suit", "licensing", "resolved"])
+  .enter().append("marker")
+    .attr("id", function(d) { return d; })
+    .attr("viewBox", "0 -5 10 10")
+    .attr("refX", 15)
+    .attr("refY", -1.5)
+    .attr("markerWidth", 6)
+    .attr("markerHeight", 6)
+    .attr("orient", "auto")
+  .append("path")
+    .attr("d", "M0,-5L10,0L0,5");
+var path = svg.append("g").selectAll("path")
+    .data(force.links())
+  .enter().append("path")
+    .attr("class", function(d) { return "link " + d.type; })
+    .attr("marker-end", function(d) { return "url(#" + d.type + ")"; });
+var circle = svg.append("g").selectAll("circle")
+    .data(force.nodes())
+  .enter().append("circle")
+    .attr("r", 6)
+    .call(force.drag)
+    .style("fill", function(d,i) {
+      //return nodecolor(i);
+      return d.color;
+    });
+var text = svg.append("g").selectAll("text")
+    .data(force.nodes())
+  .enter().append("text")
+    .attr("x", 8)
+    .attr("y", ".31em")
+    .text(function(d) { return d.name; });
+// Use elliptical arc path segments to doubly-encode directionality.
+function tick() {
+  path.attr("d", linkArc);
+  circle.attr("transform", transform);
+  text.attr("transform", transform);
+}
+function linkArc(d) {
+  var dx = d.target.x - d.source.x,
+      dy = d.target.y - d.source.y,
+      dr = Math.sqrt(dx * dx + dy * dy);
+  return "M" + d.source.x + "," + d.source.y + "A" + dr + "," + dr + " 0 0,1 " + d.target.x + "," + d.target.y;
+}
+function transform(d) {
+  return "translate(" + d.x + "," + d.y + ")";
+}
+</script>
+<br>
+Lobbistas en los medios
+<br>
+<br>
+nodo rojo: Medio de comunicación  //  nodo gris: Periodista  //  nodo negro: Empresa de Lobby  //  nodo  azul: Empresa cliente
+<br>
+Flecha gris segmentada: relacion tipo 1
+<br>
+Flecha gris continua: relacion tipo 2
+<br>
+Flecha verde continua: relacion tipo 3
+<br>
+<a href="https://citizenrabioso.github.io/visualizations/">Back Citizen</a> 
