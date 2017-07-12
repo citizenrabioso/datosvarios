@@ -15,11 +15,47 @@
   },
   {"name": "Capital",
      "children": [
-     {"name": "Director 1", "value": 11702},
-     {"name": "Director 2", "value": 11582},
-     {"name": "Director 3", "value": 11104},
-     {"name": "Director 4", "value": 11517},
-     {"name": "Director 5", "value": 11600}
+     {"name": "Director 1", "value": 110000},
+     {"name": "Director 2", "value": 109000},
+     {"name": "Director 3", "value": 108000},
+     {"name": "Director 4", "value": 107000},
+     {"name": "Director 5", "value": 106000}
+                ]
+  },
+  {"name": "ProVida",
+     "children": [
+     {"name": "Director 1", "value": 110000},
+     {"name": "Director 2", "value": 109000},
+     {"name": "Director 3", "value": 108000},
+     {"name": "Director 4", "value": 107000},
+     {"name": "Director 5", "value": 106000}
+                ]
+  }
+  {"name": "PlanVital",
+     "children": [
+     {"name": "Director 1", "value": 110000},
+     {"name": "Director 2", "value": 109000},
+     {"name": "Director 3", "value": 108000},
+     {"name": "Director 4", "value": 107000},
+     {"name": "Director 5", "value": 106000}
+                ]
+  },
+  {"name": "Modelo",
+     "children": [
+     {"name": "Director 1", "value": 110000},
+     {"name": "Director 2", "value": 109000},
+     {"name": "Director 3", "value": 108000},
+     {"name": "Director 4", "value": 107000},
+     {"name": "Director 5", "value": 106000}
+                ]
+  },
+  {"name": "Capital",
+     "children": [
+     {"name": "Director 1", "value": 110000},
+     {"name": "Director 2", "value": 109000},
+     {"name": "Director 3", "value": 108000},
+     {"name": "Director 4", "value": 107000},
+     {"name": "Director 5", "value": 106000}
                 ]
   }
   ]
