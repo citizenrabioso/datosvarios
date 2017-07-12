@@ -12,11 +12,11 @@
   },
   {"name": "Capital",
      "children": [
-     {"name": "Easing", "value": 17010},
-     {"name": "FunctionSequence", "value": 5842},
-     {"name": "ISchedulable", "value": 1041},
-     {"name": "Parallel", "value": 5176},
-     {"name": "Tween", "value": 6006}
+     {"name": "Director 1", "value": 17010},
+     {"name": "Director 2", "value": 5842},
+     {"name": "Director 3", "value": 1041},
+     {"name": "Director 4", "value": 5176},
+     {"name": "Director 5", "value": 6006}
                 ]
   }
   ]
