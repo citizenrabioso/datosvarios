@@ -3,22 +3,23 @@
  "children": [
   {"name": "Habitat (remuneraciones totales 2015)",
      "children": [
-     {"name": "José Antonio Guzmán Matta ($78.852.341)", "value": 78852341},
-     {"name": "Juan Maximiano Benavides Feliú ($172.730.568)", "value": 172730568},
-     {"name": "LUis Juan Roberto Nario Matus ($196.284.476)", "value": 196284476}
-     {"name": "Luis Rodriguez Villasuso Sario ($138.814.981)", "value": 138814981},
-     {"name": "José Miguel Garcia Echavarrí ($133.027.446)", "value": 133027446},    
-     {"name": "Klaus Schmidt-Hebbel Dunker ($125.721.080)", "value": 125721080},    
-     {"name": "Jaime Danus Larroulet ($127.497.126)", "value": 127497126}
+     {"name": "José Antonio Guzmán Matta ($78.852.341)", "value": 78852,341},
+     {"name": "Juan Maximiano Benavides Feliú ($172.730.568)", "value": 172730,568},
+     {"name": "Luis Juan Roberto Nario Matus ($196.284.476)", "value": 196284,476}
+     {"name": "Luis Rodriguez Villasuso Sario ($138.814.981)", "value": 138814,981},
+     {"name": "José Miguel Garcia Echavarrí ($133.027.446)", "value": 133027,446},    
+     {"name": "Fernando Zavala Cavada ($128.393.460)", "value": 128393,460},    
+     {"name": "Klaus Schmidt-Hebbel Dunker ($125.721.080)", "value": 125721,080},    
+     {"name": "Jaime Danus Larroulet ($127.497.126)", "value": 127497,126}
                  ]
   },
   {"name": "Capital",
      "children": [
-     {"name": "Director 1", "value": 17010},
-     {"name": "Director 2", "value": 5842},
-     {"name": "Director 3", "value": 1041},
-     {"name": "Director 4", "value": 5176},
-     {"name": "Director 5", "value": 6006}
+     {"name": "Director 1", "value": 117010},
+     {"name": "Director 2", "value": 115842},
+     {"name": "Director 3", "value": 111041},
+     {"name": "Director 4", "value": 115176},
+     {"name": "Director 5", "value": 116006}
                 ]
   }
   ]
