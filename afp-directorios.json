@@ -4,21 +4,11 @@
   {
    "name": "Habitat",
    "children": [
-    {
-     "name": "Bancard Inversiones Ltda:",
-     "children": [
-      {"name": "Vox Populi S.A.", "value": 5000},
-      {"name": "Agrícola y Ganadera Los Corrales S.A.", "value": 5000},
-      {"name": "Inmobiliaria Arenas Blancas S.A.", "value": 9999},
-      {"name": "Inversora San Juan S.A.", "value": 5000},
-      {"name": "Inmobiliaria El Boldo S.A.", "value": 5621},
-      {"name": "Inversiones Antupirén S.A.", "value": 1250},
-      {"name": "Diptel", "value": 9900},
-      {"name": "Inmobiliaria Puente La Dehesa", "value": 1875},
-      {"name": "Participaciones Futuro", "value": 5000},
-      {"name": "Inversiones Totoralillo", "value": 1000},
-      {"name": "Hotelera Ranco", "value": 1},
-      {"name": "Transporte Icato S.A.", "value": 106}
+    {"name": "Director 1", "value": 11000},
+    {"name": "Director 2", "value": 10000},
+    {"name": "Director 3", "value": 9000},
+    {"name": "Director 4", "value": 8000},
+    {"name": "Director 6", "value": 7000}
      ]
     },
     {
@@ -79,7 +69,7 @@
    ]
   },
   {
-   "name": "vis",
+   "name": "Cuprum",
    "children": [
     {
      "name": "axis",
