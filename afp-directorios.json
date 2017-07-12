@@ -30,7 +30,7 @@
      {"name": "Director 4", "value": 107000},
      {"name": "Director 5", "value": 106000}
                 ]
-  }
+  },
   {"name": "PlanVital",
      "children": [
      {"name": "Director 1", "value": 110000},
