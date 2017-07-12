@@ -9,14 +9,6 @@
     {"name": "Director 3", "value": 9000},
     {"name": "Director 4", "value": 8000},
     {"name": "Director 6", "value": 7000}
-     ]
-    },
-    {
-     "name": "Inversiones Bancorp Ltda",
-     "children": [
-      {"name": "Inversiones Santa Cecilia", "value": 9990}
-     ]
-    }
    ]
   },
   {
@@ -24,13 +16,6 @@
    "children": [
     {"name": "Easing", "value": 17010},
     {"name": "FunctionSequence", "value": 5842},
-    {
-     "name": "interpolate",
-     "children": [
-      {"name": "ArrayInterpolator", "value": 1983},
-      {"name": "RectangleInterpolator", "value": 2042}
-     ]
-    },
     {"name": "ISchedulable", "value": 1041},
     {"name": "Parallel", "value": 5176},
     {"name": "Tween", "value": 6006}
@@ -41,20 +26,6 @@
    "children": [
     {"name": "Arrays", "value": 1258},
     {"name": "Geometry", "value": 1193},
-    {
-     "name": "heap",
-     "children": [
-      {"name": "FibonacciHeap", "value": 354},
-      {"name": "HeapNode", "value": 233}
-     ]
-    },
-    {
-     "name": "math",
-     "children": [
-      {"name": "DenseMatrix", "value": 365},
-      {"name": "SparseMatrix", "value": 366}
-     ]
-    },
     {"name": "Maths", "value": 105},
     {"name": "Orientation", "value": 186},
     {
