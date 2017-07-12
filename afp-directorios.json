@@ -1,0 +1,153 @@
+{
+ "name": "Sociedades de Familia Piñera-Morel",
+ "children": [
+  {
+   "name": "SebastianPiñera",
+   "children": [
+    {
+     "name": "Bancard Inversiones Ltda:",
+     "children": [
+      {"name": "Vox Populi S.A.", "value": 5000},
+      {"name": "Agrícola y Ganadera Los Corrales S.A.", "value": 5000},
+      {"name": "Inmobiliaria Arenas Blancas S.A.", "value": 9999},
+      {"name": "Inversora San Juan S.A.", "value": 5000},
+      {"name": "Inmobiliaria El Boldo S.A.", "value": 5621},
+      {"name": "Inversiones Antupirén S.A.", "value": 1250},
+      {"name": "Diptel", "value": 9900},
+      {"name": "Inmobiliaria Puente La Dehesa", "value": 1875},
+      {"name": "Participaciones Futuro", "value": 5000},
+      {"name": "Inversiones Totoralillo", "value": 1000},
+      {"name": "Hotelera Ranco", "value": 1},
+      {"name": "Transporte Icato S.A.", "value": 106}
+     ]
+    },
+    {
+     "name": "Inversiones Bancorp Ltda",
+     "children": [
+      {"name": "Inversiones Santa Cecilia", "value": 9990}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "CeciliaMorel",
+   "children": [
+    {"name": "Easing", "value": 17010},
+    {"name": "FunctionSequence", "value": 5842},
+    {
+     "name": "interpolate",
+     "children": [
+      {"name": "ArrayInterpolator", "value": 1983},
+      {"name": "RectangleInterpolator", "value": 2042}
+     ]
+    },
+    {"name": "ISchedulable", "value": 1041},
+    {"name": "Parallel", "value": 5176},
+    {"name": "Tween", "value": 6006}
+   ]
+  },
+  {
+   "name": "util",
+   "children": [
+    {"name": "Arrays", "value": 1258},
+    {"name": "Geometry", "value": 1193},
+    {
+     "name": "heap",
+     "children": [
+      {"name": "FibonacciHeap", "value": 354},
+      {"name": "HeapNode", "value": 233}
+     ]
+    },
+    {
+     "name": "math",
+     "children": [
+      {"name": "DenseMatrix", "value": 365},
+      {"name": "SparseMatrix", "value": 366}
+     ]
+    },
+    {"name": "Maths", "value": 105},
+    {"name": "Orientation", "value": 186},
+    {
+     "name": "palette",
+     "children": [
+      {"name": "ColorPalette", "value": 367},
+      {"name": "SizePalette", "value": 291}
+     ]
+    },
+    {"name": "Property", "value": 559},
+    {"name": "Strings", "value": 426}
+   ]
+  },
+  {
+   "name": "vis",
+   "children": [
+    {
+     "name": "axis",
+     "children": [
+      {"name": "Axes", "value": 102},
+      {"name": "CartesianAxes", "value": 103}
+     ]
+    },
+    {
+     "name": "controls",
+     "children": [
+      {"name": "AnchorControl", "value": 138},
+      {"name": "TooltipControl", "value": 135}
+     ]
+    },
+    {
+     "name": "data",
+     "children": [
+      {"name": "Data", "value": 154},
+      {"name": "NodeSprite", "value": 132},
+      {
+       "name": "render",
+       "children": [
+        {"name": "ArrowType", "value": 198},
+        {"name": "ShapeRenderer", "value": 247}
+       ]
+      },
+      {"name": "TreeBuilder", "value": 130}
+     ]
+    },
+    {
+     "name": "legend",
+     "children": [
+      {"name": "Legend", "value": 289},
+      {"name": "LegendRange", "value": 130}
+     ]
+    },
+    {
+     "name": "operator",
+     "children": [
+      {
+       "name": "distortion",
+       "children": [
+        {"name": "BifocalDistortion", "value": 261},
+        {"name": "FisheyeDistortion", "value": 344}
+       ]
+      },
+      {
+       "name": "filter",
+       "children": [
+        {"name": "FisheyeTreeFilter", "value": 219},
+        {"name": "VisibilityFilter", "value": 309}
+       ]
+      },
+      {"name": "IOperator", "value": 186},
+      {
+       "name": "layout",
+       "children": [
+        {"name": "AxisLayout", "value": 225},
+        {"name": "TreeMapLayout", "value": 311}
+       ]
+      },
+      {"name": "Operator", "value": 290},
+      {"name": "SortOperator", "value": 223}
+     ]
+    },
+    {"name": "Visualization", "value": 140}
+   ]
+  }
+ ]
+}
