@@ -1,8 +1,8 @@
 {
- "name": "Sociedades de Familia Piñera-Morel",
+ "name": "AFPs de Chile",
  "children": [
   {
-   "name": "SebastianPiñera",
+   "name": "Habitat",
    "children": [
     {
      "name": "Bancard Inversiones Ltda:",
@@ -30,7 +30,7 @@
    ]
   },
   {
-   "name": "CeciliaMorel",
+   "name": "Capital",
    "children": [
     {"name": "Easing", "value": 17010},
     {"name": "FunctionSequence", "value": 5842},
